@@ -48,8 +48,20 @@ Creating and verifying a knn nearest neighbor a classification model
          ns[i]=ns[i]/10;                                                                                                    
        end;                                                                                                                 
        drop i;                                                                                                              
-    run;quit;                                                                                                               
-                                                                                                                            
+    run;quit;   
+    SD1.HAVE total obs=150                                              
+                                                                    
+    SEPALLENGTH    SEPALWIDTH    PETALLENGTH    PETALWIDTH    SPECIES   
+                                                                    
+       5.0            3.3           1.4            0.2       Setosa    
+       4.6            3.4           1.4            0.3       Setosa    
+       4.6            3.6           1.0            0.2       Setosa    
+       5.1            3.3           1.7            0.5       Setosa    
+       5.5            3.5           1.3            0.2       Setosa    
+       4.8            3.1           1.6            0.2       Setosa    
+       5.2            3.4           1.4            0.2       Setosa    
+...                                                                 
+                                                                                                                           
     /*           _               _                                                                                          
       ___  _   _| |_ _ __  _   _| |_                                                                                        
      / _ \| | | | __| `_ \| | | | __|                                                                                       
