@@ -116,7 +116,12 @@ Creating and verifying a knn nearest neighbor a classification model
     \__ \ (_) | | |_| | |_| | (_) | | | |                                                                                   
     |___/\___/|_|\__,_|\__|_|\___/|_| |_|                                                                                   
                                                                                                                             
-    */                                                                                                                      
+    */   
+    %utlfkil(d:/xpt/want.xpt)        
+                                 
+    proc datasets lib=work nolist;   
+        delete want;                   
+    run;quit;                                                        
                                                                                                                             
     %utl_submit_r64(resolve('                                                                                               
     library(class);                                                                                                         
