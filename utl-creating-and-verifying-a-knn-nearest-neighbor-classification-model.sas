@@ -114,8 +114,14 @@ Total            15       19       14       48
 \__ \ (_) | | |_| | |_| | (_) | | | |                                                                                                
 |___/\___/|_|\__,_|\__|_|\___/|_| |_|                                                                                                
                                                                                                                                      
-*/                                                                                                                                   
-                                                                                                                                     
+*/   
+
+%utlfkil(d:/xpt/want.xpt)        
+                                 
+proc datasets lib=work nolist;   
+  delete want;                   
+run;quit;                        
+                                                                                                                                                                      
 %utl_submit_r64(resolve('                                                                                                            
 library(class);                                                                                                                      
 library(data.table);                                                                                                                 
